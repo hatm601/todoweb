@@ -9,6 +9,7 @@ This is a simple To-Do List web application built with Flask, SQLAlchemy, and SC
 - Responsive UI styled with SCSS
 - No internet connection required (works offline)
 - Easy to run locally
+- Login page to make different to-do lists
 
 ## Requirements
 
@@ -53,10 +54,12 @@ webproject/
 │   │   └── style.scss
 │   └── style.css
 ├── templates/
-│   ├── base.html
-│   ├── index.html
-│   └── edit.html
-├── database.db
+│   |-- base.html
+│   |-- index.html
+│   |-- edit.html
+|   |-- login.html
+|   instances/ 
+├── |--database.db
 ├── README.md
 └── .gitignore
 ```
